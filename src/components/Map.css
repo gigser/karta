@@ -1,0 +1,7 @@
+.leaflet-marker-icon {
+    background-image: url('./marker.png');
+    background-size: cover;
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+  }
