@@ -9,24 +9,24 @@ const Map = () => {
   const [markers, setMarkers] = useState([
     // Исходные маркеры
     {
-      name: 'ТЦ Горизонт',
-      coordinates: [47.259301, 39.719791],
+      name: 'Аквапарк "H2O"',
+      coordinates: [47.262937, 39.720160],
     },
     {
-      name: 'ИВТиПТ',
-      coordinates: [47.218953, 39.627433],
+      name: 'Дворец Спорта',
+      coordinates: [47.2279755, 39.69648834425441],
     },
     {
-      name: 'Библиотека',
-      coordinates: [47.228379, 39.726662],
+      name: 'ЦУМ',
+      coordinates: [47.219958, 39.708148],
     },
     {
-      name: 'Правительство Ростовской области',
-      coordinates: [47.220835, 39.720871],
+      name: 'Драм театр им. М. Горького',
+      coordinates: [47.228472, 39.744741],
     },
     {
-      name: 'Собор Пресвятой Богородицы',
-      coordinates: [47.217253, 39.712026],
+      name: 'Пригородный автовокзал',
+      coordinates: [47.241706, 39.763789],
     },
   ]);
   const [isModalVisible, setIsModalVisible] = useState(false);
